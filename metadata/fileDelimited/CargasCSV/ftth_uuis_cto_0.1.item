@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_dl_wEdFeEei5seCCLLDy0Q" name="ftth_uuis_cto" dataPackage="_dl_wEtFeEei5seCCLLDy0Q" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/FIR/8_ftth_uuis_cto/ftth_uuis_cto.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_dl_wEtFeEei5seCCLLDy0Q" name="default" dataManager="_dl_wEdFeEei5seCCLLDy0Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_dl_wE9FeEei5seCCLLDy0Q" id="_EvDrsNFeEei5seCCLLDy0Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wFNFeEei5seCCLLDy0Q" label="ACT_JAZZTEL" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wFdFeEei5seCCLLDy0Q" label="OPERADOR" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wFtFeEei5seCCLLDy0Q" label="CTO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wF9FeEei5seCCLLDy0Q" label="UUIS_SERVICIABLES" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wGNFeEei5seCCLLDy0Q" label="UUIS_NO_SERVICIABLES" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wGdFeEei5seCCLLDy0Q" label="UUIS_ACCESO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wGtFeEei5seCCLLDy0Q" label="CTO_BLOQUEADA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wG9FeEei5seCCLLDy0Q" label="TOTAL_UUII" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dl_wHNFeEei5seCCLLDy0Q" label="PUERTOS_ACTIVOS" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

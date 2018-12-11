@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XCxfgdJiEeiqDuzcpThGgw" name="xDSL_REP_ODS_ADSL_OSP" label="xDSL_REP_ODS_ADSL_OSP" dataPackage="_rttyctI_EeiwNviUQZ0NWw" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/xDSL/REP_ODS/REP_ODS_ADSL_OSP.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Tabulation" splitRecord="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rttyctI_EeiwNviUQZ0NWw" name="default" dataManager="_XCxfgdJiEeiqDuzcpThGgw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rttyc9I_EeiwNviUQZ0NWw" id="_ceyKINI_EeiwNviUQZ0NWw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2ENJiEeiqDuzcpThGgw" label="So_Id" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2EdJiEeiqDuzcpThGgw" label="Fecha_inicio_instalacion_real" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2EtJiEeiqDuzcpThGgw" label="MIN_Fecha_estado" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2E9JiEeiqDuzcpThGgw" label="MAX_Fecha_estado" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2FNJiEeiqDuzcpThGgw" label="Descripcion_del_estado" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2FdJiEeiqDuzcpThGgw" label="Descripicion" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2FtJiEeiqDuzcpThGgw" label="Telefono_ADSL" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2F9JiEeiqDuzcpThGgw" label="Descripcion_estado" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2GNJiEeiqDuzcpThGgw" label="Grupo_Proveedores" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2GdJiEeiqDuzcpThGgw" label="Provincia" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2GtJiEeiqDuzcpThGgw" label="Ul_Descoferta" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2G9JiEeiqDuzcpThGgw" label="Descripcion_agrupada" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2HNJiEeiqDuzcpThGgw" label="Descripcion_agrupada1" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2HdJiEeiqDuzcpThGgw" label="Tipo_documento" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2HtJiEeiqDuzcpThGgw" label="Numero_documento" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_szh2H9JiEeiqDuzcpThGgw" label="Poblacion" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_6V15EdH1EeiyBt-1sFDSNQ" name="Pendientes_TIBCO_AFS" dataPackage="_6V15EtH1EeiyBt-1sFDSNQ" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/Pedidos/Pendientes_TIBCO_AFS.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_6V15EtH1EeiyBt-1sFDSNQ" name="default" dataManager="_6V15EdH1EeiyBt-1sFDSNQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6V15E9H1EeiyBt-1sFDSNQ" id="_kdtvMNH1EeiyBt-1sFDSNQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6V15FNH1EeiyBt-1sFDSNQ" label="ID_Orden" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6V15FdH1EeiyBt-1sFDSNQ" label="Tipo_Orden" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6V15FtH1EeiyBt-1sFDSNQ" label="Tipo_Actividad" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6V15F9H1EeiyBt-1sFDSNQ" label="Estado_Provision" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

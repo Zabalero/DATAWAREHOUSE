@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_hLsaAW56Eei4HOknJoXmCA" name="CAR_Estado_Instalacion" dataPackage="_hLsaAm56Eei4HOknJoXmCA" Server="Localhost 127.0.0.1" FilePath="C:/Automaticos/Remedy/CAR_Estado_Instalacion.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hLsaAm56Eei4HOknJoXmCA" name="default" dataManager="_hLsaAW56Eei4HOknJoXmCA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hLsaA256Eei4HOknJoXmCA" id="_Wesr0G56Eei4HOknJoXmCA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hLsaBG56Eei4HOknJoXmCA" label="CAR_Estado_Instalacion" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hLsaBW56Eei4HOknJoXmCA" label="Estado_Jazztel" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hLsaBm56Eei4HOknJoXmCA" label="COD" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

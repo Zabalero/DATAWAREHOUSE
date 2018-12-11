@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_cnBUEF5XEeik9YKqhyUP7Q" name="Remedy" id="_UDsoIF5XEeik9YKqhyUP7Q" label="Remedy" dataPackage="_aNSMMPiMEeinK4QbRbfSLw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://MXMESCF02:1433/Remedy;" dbVersionString="JTDS" Port="1433" Username="DST_ADM" Password="HiemHFUuJmi2y/luU3YpUQ==" ServerName="MXMESCF02" DatasourceName="" FileFieldName="" SID="Remedy" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_cnBUEV5XEeik9YKqhyUP7Q" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_cnUPAF5XEeik9YKqhyUP7Q" tag="package filter" value=""/>
+    <taggedValue xmi:id="_cnUPAV5XEeik9YKqhyUP7Q" tag="Status" value=""/>
+    <taggedValue xmi:id="_cnUPAl5XEeik9YKqhyUP7Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_cnUPA15XEeik9YKqhyUP7Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_cnUPBF5XEeik9YKqhyUP7Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_cnUPBV5XEeik9YKqhyUP7Q" tag="Author" value=""/>
+    <taggedValue xmi:id="_cnUPBl5XEeik9YKqhyUP7Q" tag="otherParameter"/>
+    <taggedValue xmi:id="_coD14F5XEeik9YKqhyUP7Q" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_coD14V5XEeik9YKqhyUP7Q" tag="DB ProductVersion" value="11.00.3128"/>
+    <taggedValue xmi:id="_coD14l5XEeik9YKqhyUP7Q" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_cnBUEl5XEeik9YKqhyUP7Q" key="CONN_PARA_KEY_USERNAME" value="DST_ADM"/>
+    <parameters xmi:id="_834MUF5XEeik9YKqhyUP7Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_aNSMMPiMEeinK4QbRbfSLw" name="Remedy" dataManager="_cnBUEF5XEeik9YKqhyUP7Q">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_aNSMMfiMEeinK4QbRbfSLw" name="dbo">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_3NrZQfiMEeinK4QbRbfSLw" name="Instalaciones_Todo_UPDT" id="_3NrZQPiMEeinK4QbRbfSLw" label="Instalaciones_Todo_UPDT" tableType="TABLE">
+        <taggedValue xmi:id="_3NrZQviMEeinK4QbRbfSLw" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZQ_iMEeinK4QbRbfSLw" name="CAR_FTTH_IUA" label="CAR_FTTH_IUA" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZRPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZRfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZRviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZR_iMEeinK4QbRbfSLw" name="CAR_ID_Actuacion" label="CAR_ID_Actuacion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZSPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZSfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZSviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZS_iMEeinK4QbRbfSLw" name="CAR_Tipo" label="CAR_Tipo" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZTPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZTfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZTviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZT_iMEeinK4QbRbfSLw" name="CAR_FTTH_ID_Pedido" label="CAR_FTTH_ID_Pedido" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZUPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZUfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZUviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZU_iMEeinK4QbRbfSLw" name="CAR_FTTH_CTO" label="CAR_FTTH_CTO" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZVPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZVfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZVviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZV_iMEeinK4QbRbfSLw" name="CAR_Telefono_Acceso" label="CAR_Telefono_Acceso" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZWPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZWfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZWviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZW_iMEeinK4QbRbfSLw" name="CAR_Nombre_Cliente" label="CAR_Nombre_Cliente" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZXPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZXfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZXviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZX_iMEeinK4QbRbfSLw" name="CAR_Tipo_Calle" label="CAR_Tipo_Calle" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZYPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZYfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZYviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZY_iMEeinK4QbRbfSLw" name="CAR_Calle" label="CAR_Calle" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZZPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZZfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZZviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZZ_iMEeinK4QbRbfSLw" name="CAR_Numero" label="CAR_Numero" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZaPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZafiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZaviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZa_iMEeinK4QbRbfSLw" name="CAR_Codigo_Postal" label="CAR_Codigo_Postal" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZbPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZbfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZbviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZb_iMEeinK4QbRbfSLw" name="CAR_Poblacion" label="CAR_Poblacion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZcPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZcfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZcviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZc_iMEeinK4QbRbfSLw" name="CAR_Provincia" label="CAR_Provincia" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZdPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZdfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZdviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZd_iMEeinK4QbRbfSLw" name="CAR_FTTH_Nombre_Cabecera" label="CAR_FTTH_Nombre_Cabecera" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZePiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZefiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZeviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZe_iMEeinK4QbRbfSLw" name="CAR_Estado_Instalacion" label="CAR_Estado_Instalacion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZfPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZffiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZfviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZf_iMEeinK4QbRbfSLw" name="CAR_Estado_Actuacion" label="CAR_Estado_Actuacion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZgPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZgfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZgviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZg_iMEeinK4QbRbfSLw" name="CAR_Empresa_Mantenedora" label="CAR_Empresa_Mantenedora" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZhPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZhfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZhviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZh_iMEeinK4QbRbfSLw" name="CAR_Servicio" label="CAR_Servicio" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZiPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZifiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZiviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZi_iMEeinK4QbRbfSLw" name="CORE_F_Creacion" label="CORE_F_Creacion" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZjPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZjfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZjviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZj_iMEeinK4QbRbfSLw" name="FEC_FTTH_Envio" label="FEC_FTTH_Envio" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZkPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZkfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZkviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZk_iMEeinK4QbRbfSLw" name="FEC_Prevista_Actuacion" label="FEC_Prevista_Actuacion" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZlPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZlfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZlviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZl_iMEeinK4QbRbfSLw" name="FEC_Realizacion" label="FEC_Realizacion" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZmPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZmfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZmviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZm_iMEeinK4QbRbfSLw" name="CORE_F_Modificacion" label="CORE_F_Modificacion" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZnPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZnfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZnviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZn_iMEeinK4QbRbfSLw" name="FEC_Cambio_Estado" label="FEC_Cambio_Estado" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZoPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZofiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZoviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZo_iMEeinK4QbRbfSLw" name="SEL_Tipo_FTTH" label="SEL_Tipo_FTTH" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZpPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZpfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZpviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZp_iMEeinK4QbRbfSLw" name="SEL_FTTH_Jazzbox" label="SEL_FTTH_Jazzbox" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZqPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZqfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZqviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZq_iMEeinK4QbRbfSLw" name="CAR_FTTH_Portabilidad" label="CAR_FTTH_Portabilidad" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZrPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZrfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZrviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZr_iMEeinK4QbRbfSLw" name="SEL_FTTH_Reutilizacion" label="SEL_FTTH_Reutilizacion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZsPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZsfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZsviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZs_iMEeinK4QbRbfSLw" name="CAR_Tecnico_Nombre" label="CAR_Tecnico_Nombre" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZtPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZtfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZtviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZt_iMEeinK4QbRbfSLw" name="CAR_Submotivo" label="CAR_Submotivo" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZuPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZufiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZuviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZu_iMEeinK4QbRbfSLw" name="CAR_Tecnico" label="CAR_Tecnico" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZvPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZvfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZvviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZv_iMEeinK4QbRbfSLw" name="CAR_FTTH_Gescal37" label="CAR_FTTH_Gescal37" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZwPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZwfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZwviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZw_iMEeinK4QbRbfSLw" name="CAR_FTTH_Evolucion" label="CAR_FTTH_Evolucion" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZxPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZxfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZxviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZx_iMEeinK4QbRbfSLw" name="CAR_ID_Provision" label="CAR_ID_Provision" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZyPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZyfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZyviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZy_iMEeinK4QbRbfSLw" name="CAR_Tipo_Actividad" label="CAR_Tipo_Actividad" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZzPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZzfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZzviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZz_iMEeinK4QbRbfSLw" name="FEC_Inicio_Pedido" label="FEC_Inicio_Pedido" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZ0PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ0fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ0viMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ0_iMEeinK4QbRbfSLw" name="CAR_FTTH_Evolucion_Orange" label="CAR_FTTH_Evolucion_Orange" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ1PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ1fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ1viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ1_iMEeinK4QbRbfSLw" name="CAR_FTTH_Modelo_ONT" label="CAR_FTTH_Modelo_ONT" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ2PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ2fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ2viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ2_iMEeinK4QbRbfSLw" name="CAR_FTTH_Modelo_AG" label="CAR_FTTH_Modelo_AG" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ3PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ3fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ3viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ3_iMEeinK4QbRbfSLw" name="CAR_FTTH_Tipo_CTO" label="CAR_FTTH_Tipo_CTO" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ4PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ4fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ4viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ4_iMEeinK4QbRbfSLw" name="CAR_FTTH_Perfil_Servicio" label="CAR_FTTH_Perfil_Servicio" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ5PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ5fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ5viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ5_iMEeinK4QbRbfSLw" name="CAR_Resultado_Prueba" label="CAR_Resultado_Prueba" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ6PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ6fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ6viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ6_iMEeinK4QbRbfSLw" name="CAR_FTTH_Componente_TV" label="CAR_FTTH_Componente_TV" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ7PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ7fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ7viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ7_iMEeinK4QbRbfSLw" name="FEC_FTTH_Hora_Inicio2" label="FEC_FTTH_Hora_Inicio2" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZ8PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ8fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ8viMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ8_iMEeinK4QbRbfSLw" name="FEC_FTTH_Hora_Fin2" label="FEC_FTTH_Hora_Fin2" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NrZ9PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ9fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ9viMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ9_iMEeinK4QbRbfSLw" name="CAR_Huella_Movistar" label="CAR_Huella_Movistar" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ-PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ-fiMEeinK4QbRbfSLw" body="'('')'" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ-viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ-_iMEeinK4QbRbfSLw" name="CAR_Tipo_Estrato" label="CAR_Tipo_Estrato" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NrZ_PiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NrZ_fiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NrZ_viMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NrZ__iMEeinK4QbRbfSLw" name="INT_Contador_Estados" label="INT_Contador_Estados" length="10" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NraAPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraAfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraAviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NraA_iMEeinK4QbRbfSLw" name="FEC_Proxima_Llamada" label="FEC_Proxima_Llamada" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_3NraBPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraBfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraBviMEeinK4QbRbfSLw" name="DATETIME" numericPrecision="3" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NraB_iMEeinK4QbRbfSLw" name="NIFCIF" label="NIFCIF" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NraCPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraCfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraCviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NraC_iMEeinK4QbRbfSLw" name="CAR_Telefono_Contacto" label="CAR_Telefono_Contacto" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NraDPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraDfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraDviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NraD_iMEeinK4QbRbfSLw" name="CAR_Codigo_MIGA" label="CAR_Codigo_MIGA" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NraEPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraEfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraEviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3NraE_iMEeinK4QbRbfSLw" name="CAR_FTTH_Comentarios" label="CAR_FTTH_Comentarios" length="255" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3NraFPiMEeinK4QbRbfSLw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3NraFfiMEeinK4QbRbfSLw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3NraFviMEeinK4QbRbfSLw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

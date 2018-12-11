@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rttycdI_EeiwNviUQZ0NWw" name="xDSL_Fenix" dataPackage="_rttyctI_EeiwNviUQZ0NWw" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/xDSL/FENIX/FENIX_RFS.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Tabulation" splitRecord="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rttyctI_EeiwNviUQZ0NWw" name="default" dataManager="_rttycdI_EeiwNviUQZ0NWw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rttyc9I_EeiwNviUQZ0NWw" id="_ceyKINI_EeiwNviUQZ0NWw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttydNI_EeiwNviUQZ0NWw" label="Tipo_Documento" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttyddI_EeiwNviUQZ0NWw" label="Num_Documento" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttydtI_EeiwNviUQZ0NWw" label="Telefono_Adsl" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttyd9I_EeiwNviUQZ0NWw" label="Login" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttyeNI_EeiwNviUQZ0NWw" label="Fecha_RFS" length="-1" talendType="id_Date" pattern="&quot;CCYY-MM-DD hh:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rttyedI_EeiwNviUQZ0NWw" label="Proceso_de_Provision" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

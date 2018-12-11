@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pVJEQFpsEei7fZlxvmqt4A" name="BloqueosHistorico" dataPackage="_pVJEQVpsEei7fZlxvmqt4A" Server="Localhost 127.0.0.1" FilePath="Z:/Mantenimiento/Inventario/Inventario_Logico/17_Informes/06_Informe_Bloqueos/Historicos/Bloqueos_20180517.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pVJEQVpsEei7fZlxvmqt4A" name="default" dataManager="_pVJEQFpsEei7fZlxvmqt4A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pVJEQlpsEei7fZlxvmqt4A" id="_cJFSoFpsEei7fZlxvmqt4A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJEQ1psEei7fZlxvmqt4A" label="G37" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJERFpsEei7fZlxvmqt4A" label="ID_DOMICILIO_TO" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJERVpsEei7fZlxvmqt4A" label="ACCESO" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJERlpsEei7fZlxvmqt4A" label="BLOQUEADO" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJER1psEei7fZlxvmqt4A" label="CODIGO_CTO" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJESFpsEei7fZlxvmqt4A" label="MOTIVO_BLOQUEO_CTO" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJESVpsEei7fZlxvmqt4A" label="MOTIVO_BLOQUEO_HOGAR" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJESlpsEei7fZlxvmqt4A" label="HUELLA" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJES1psEei7fZlxvmqt4A" label="ESTADO" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJETFpsEei7fZlxvmqt4A" label="MOTIVO" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJETVpsEei7fZlxvmqt4A" label="FECHA_ALTA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJETlpsEei7fZlxvmqt4A" label="REGION" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJET1psEei7fZlxvmqt4A" label="Provincia" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pVJEUFpsEei7fZlxvmqt4A" label="CdM" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

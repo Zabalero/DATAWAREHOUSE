@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_s_VRAPf_EeiqJ-aI6W2S_g" name="Imp_ASIGNACION_EEMM_EMPRESAS" dataPackage="_s_VRAff_EeiqJ-aI6W2S_g" Server="Localhost 127.0.0.1" FilePath="C:/Automaticos/Remedy/Imp_ASIGNACION_EEMM_EMPRESAS.txt" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_s_VRAff_EeiqJ-aI6W2S_g" name="default" dataManager="_s_VRAPf_EeiqJ-aI6W2S_g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_s_VRAvf_EeiqJ-aI6W2S_g" id="_ZPBvQPf_EeiqJ-aI6W2S_g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRA_f_EeiqJ-aI6W2S_g" label="CAR_Empresa_Mantenedora" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRBPf_EeiqJ-aI6W2S_g" label="DEC_Porcentaje" length="20" precision="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRBff_EeiqJ-aI6W2S_g" label="ID" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRBvf_EeiqJ-aI6W2S_g" label="INT_ID_Regla" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRB_f_EeiqJ-aI6W2S_g" label="Fecha_de_creacion" length="23" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRCPf_EeiqJ-aI6W2S_g" label="Fecha_de_modificacion" length="23" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s_VRCff_EeiqJ-aI6W2S_g" label="Ultima_modificacion_realizada_por" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

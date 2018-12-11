@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Qos64dJpEeiqDuzcpThGgw" name="cto_GESCALES12_CP" dataPackage="_Qos64tJpEeiqDuzcpThGgw" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/Bajas/G12_CP.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Qos64tJpEeiqDuzcpThGgw" name="default" dataManager="_Qos64dJpEeiqDuzcpThGgw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Qos649JpEeiqDuzcpThGgw" id="_-gPgsNJoEeiqDuzcpThGgw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos65NJpEeiqDuzcpThGgw" label="Gescal_12" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos65dJpEeiqDuzcpThGgw" label="Numero" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos65tJpEeiqDuzcpThGgw" label="Tipo_Via" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos659JpEeiqDuzcpThGgw" label="Nombre_Via" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos66NJpEeiqDuzcpThGgw" label="Provincia_Address" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos66dJpEeiqDuzcpThGgw" label="Municipio_Address" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qos66tJpEeiqDuzcpThGgw" label="Codigo_Postal" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

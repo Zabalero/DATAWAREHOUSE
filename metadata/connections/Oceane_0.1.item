@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_W4RMMNIAEeiwNviUQZ0NWw" name="Oceane" id="_L8qaQNIAEeiwNviUQZ0NWw" label="Oceane" dataPackage="_V9hIUNsNEeiCJv2xMNHdag" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://MXMESCF02:1433/Oceane;" dbVersionString="JTDS" Port="1433" Username="DST_ADM" Password="HiemHFUuJmi2y/luU3YpUQ==" ServerName="MXMESCF02" DatasourceName="" FileFieldName="" SID="Oceane" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_W4RMMdIAEeiwNviUQZ0NWw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_W4t4INIAEeiwNviUQZ0NWw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_W43pINIAEeiwNviUQZ0NWw" tag="Status" value=""/>
+    <taggedValue xmi:id="_W43pIdIAEeiwNviUQZ0NWw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_W43pItIAEeiwNviUQZ0NWw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_W43pI9IAEeiwNviUQZ0NWw" tag="Description" value=""/>
+    <taggedValue xmi:id="_W43pJNIAEeiwNviUQZ0NWw" tag="Author" value=""/>
+    <taggedValue xmi:id="_W43pJdIAEeiwNviUQZ0NWw" tag="otherParameter"/>
+    <taggedValue xmi:id="_W5dfANIAEeiwNviUQZ0NWw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_W5dfAdIAEeiwNviUQZ0NWw" tag="DB ProductVersion" value="11.00.3128"/>
+    <taggedValue xmi:id="_W5dfAtIAEeiwNviUQZ0NWw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_W4RMMtIAEeiwNviUQZ0NWw" key="CONN_PARA_KEY_USERNAME" value="DST_ADM"/>
+    <parameters xmi:id="_cfZMwNIAEeiwNviUQZ0NWw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_V9hIUNsNEeiCJv2xMNHdag" name="Oceane" dataManager="_W4RMMNIAEeiwNviUQZ0NWw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_V9hIUdsNEeiCJv2xMNHdag" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

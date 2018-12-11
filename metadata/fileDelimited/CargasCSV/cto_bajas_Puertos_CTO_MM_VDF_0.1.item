@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3qjvYdJ1EeiNs7wzY-JJWQ" name="cto_bajas_Puertos_CTO_MM_VDF" dataPackage="_3qjvYtJ1EeiNs7wzY-JJWQ" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/Bajas/Puertos_CTO_MM_VDF.txt" Encoding="windows-1252" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3qjvYtJ1EeiNs7wzY-JJWQ" name="default" dataManager="_3qjvYdJ1EeiNs7wzY-JJWQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3qjvY9J1EeiNs7wzY-JJWQ" id="_pggEcNJ1EeiNs7wzY-JJWQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3qjvZNJ1EeiNs7wzY-JJWQ" label="Codigo_CTO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3qjvZdJ1EeiNs7wzY-JJWQ" label="Nombre_Splitter2" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3qjvZtJ1EeiNs7wzY-JJWQ" label="Tipo_Splitter2" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3qjvZ9J1EeiNs7wzY-JJWQ" label="Numero" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3qjvaNJ1EeiNs7wzY-JJWQ" label="Adm_cliente" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

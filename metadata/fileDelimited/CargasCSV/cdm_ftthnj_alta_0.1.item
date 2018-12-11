@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_HeElgNH0EeiyBt-1sFDSNQ" name="cdm_ftthnj_alta" dataPackage="_HeElgdH0EeiyBt-1sFDSNQ" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/Pedidos/cdm_ftthnj_alta.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_HeElgdH0EeiyBt-1sFDSNQ" name="default" dataManager="_HeElgNH0EeiyBt-1sFDSNQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HeElgtH0EeiyBt-1sFDSNQ" id="_XJ724NHzEeiyBt-1sFDSNQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElg9H0EeiyBt-1sFDSNQ" name="" label="CDM" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElhNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElhdH0EeiyBt-1sFDSNQ" name="" label="FAMILIA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElhtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElh9H0EeiyBt-1sFDSNQ" name="" label="PEDIDO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEliNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElidH0EeiyBt-1sFDSNQ" name="" label="TELEFONO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElitH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEli9H0EeiyBt-1sFDSNQ" name="" label="OPERACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEljNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEljdH0EeiyBt-1sFDSNQ" name="" label="FECHA_ALTA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEljtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElj9H0EeiyBt-1sFDSNQ" name="" label="ESTADO_SERVICIO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElkNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElkdH0EeiyBt-1sFDSNQ" name="" label="DIRECCION" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElktH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElk9H0EeiyBt-1sFDSNQ" name="" label="IUA" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEllNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElldH0EeiyBt-1sFDSNQ" name="" label="ESTADO_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElltH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEll9H0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElmNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElmdH0EeiyBt-1sFDSNQ" name="" label="ESTADO_VOIP" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElmtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElm9H0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_VOIP" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElnNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElndH0EeiyBt-1sFDSNQ" name="" label="OT_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElntH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEln9H0EeiyBt-1sFDSNQ" name="" label="ACCION_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEloNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElodH0EeiyBt-1sFDSNQ" name="" label="ESTADO_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElotH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElo9H0EeiyBt-1sFDSNQ" name="" label="CITA_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElpNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElpdH0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElptH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElp9H0EeiyBt-1sFDSNQ" name="" label="ESTADO_OT_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElqNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElqdH0EeiyBt-1sFDSNQ" name="" label="F_CITA_OT_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElqtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElq9H0EeiyBt-1sFDSNQ" name="" label="F_INI_OT_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElrNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElrdH0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_OT_INST_FTTH" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElrtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElr9H0EeiyBt-1sFDSNQ" name="" label="OT_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElsNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElsdH0EeiyBt-1sFDSNQ" name="" label="ACCION_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElstH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEls9H0EeiyBt-1sFDSNQ" name="" label="ESTADO_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEltNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEltdH0EeiyBt-1sFDSNQ" name="" label="CITA_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElttH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElt9H0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEluNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEludH0EeiyBt-1sFDSNQ" name="" label="ESTADO_OT_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElutH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElu9H0EeiyBt-1sFDSNQ" name="" label="F_CITA_OT_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElvNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElvdH0EeiyBt-1sFDSNQ" name="" label="F_INI_OT_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElvtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElv9H0EeiyBt-1sFDSNQ" name="" label="F_ULTMOD_OT_PTE" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElwNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElwdH0EeiyBt-1sFDSNQ" name="" label="CAR_ESTADO_ACTUACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElwtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElw9H0EeiyBt-1sFDSNQ" name="" label="VAL_ESTADO_ACTUACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElxNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElxdH0EeiyBt-1sFDSNQ" name="" label="FEC_PREVISTA_ACTUACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElxtH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElx9H0EeiyBt-1sFDSNQ" name="" label="CORE_F_CREACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElyNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElydH0EeiyBt-1sFDSNQ" name="" label="FEC_CAMBIO_ESTADO" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElytH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeEly9H0EeiyBt-1sFDSNQ" name="" label="FEC_REALIZACION" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElzNH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElzdH0EeiyBt-1sFDSNQ" name="" label="NIVEL_ESTADOS_SPM_REM" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeElztH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HeElz9H0EeiyBt-1sFDSNQ" name="" label="NIVEL_ESTADOS_FDC_REM" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="-1">
+        <initialValue xmi:id="_HeEl0NH0EeiyBt-1sFDSNQ" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_PsN1cNFhEeiCzOsIZzQQZw" name="ftth_olt_saturadas" dataPackage="_PsN1cdFhEeiCzOsIZzQQZw" Server="Localhost 127.0.0.1" FilePath="//pnaspom2/ftth$/I&amp;M/Procesos/Datawarehouse/FIR/23_ftth_olt_saturadas/ftth_olt_saturadas.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_PsN1cdFhEeiCzOsIZzQQZw" name="default" dataManager="_PsN1cNFhEeiCzOsIZzQQZw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_PsN1ctFhEeiCzOsIZzQQZw" id="_A6PO4NFhEeiCzOsIZzQQZw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1c9FhEeiCzOsIZzQQZw" label="NOMBRE_EQUIPO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1dNFhEeiCzOsIZzQQZw" label="TOTAL_PUERTOS_NUMBER" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1ddFhEeiCzOsIZzQQZw" label="PUERTOS_CON_PUENTE_NUMBER" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1dtFhEeiCzOsIZzQQZw" label="PORCENTAGE_OCUPACION_NUMBER" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1d9FhEeiCzOsIZzQQZw" label="CABLE_FIBRAS_DISPONIBLES" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PsN1eNFhEeiCzOsIZzQQZw" label="NOMBRE_CENTRAL" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

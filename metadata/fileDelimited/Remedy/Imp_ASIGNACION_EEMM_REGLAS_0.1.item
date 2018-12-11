@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OcbS4fgAEeiqJ-aI6W2S_g" name="Imp_ASIGNACION_EEMM_REGLAS" dataPackage="_OcbS4vgAEeiqJ-aI6W2S_g" Server="Localhost 127.0.0.1" FilePath="C:/Automaticos/Remedy/Imp_ASIGNACION_EEMM_REGLAS.txt" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OcbS4vgAEeiqJ-aI6W2S_g" name="default" dataManager="_OcbS4fgAEeiqJ-aI6W2S_g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OcbS4_gAEeiqJ-aI6W2S_g" id="_-wdwUPf_EeiqJ-aI6W2S_g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS5PgAEeiqJ-aI6W2S_g" label="CAR_Tipo_Actividad" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS5fgAEeiqJ-aI6W2S_g" label="CAR_Tipo_OT" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS5vgAEeiqJ-aI6W2S_g" label="CAR_Servicio_TV" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS5_gAEeiqJ-aI6W2S_g" label="CAR_Provincia" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS6PgAEeiqJ-aI6W2S_g" label="CAR_Codigo_Miga" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS6fgAEeiqJ-aI6W2S_g" label="CAR_Codigo_Postal" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS6vgAEeiqJ-aI6W2S_g" label="CAR_Componente_TV" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS6_gAEeiqJ-aI6W2S_g" label="CAR_Huella_Movistar" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS7PgAEeiqJ-aI6W2S_g" label="ID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS7fgAEeiqJ-aI6W2S_g" label="INT_Prioridad" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS7vgAEeiqJ-aI6W2S_g" label="SEL_Entidad" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS7_gAEeiqJ-aI6W2S_g" label="Fecha_de_creacion" length="23" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS8PgAEeiqJ-aI6W2S_g" label="Fecha_de_modificacion" length="23" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OcbS8fgAEeiqJ-aI6W2S_g" label="Ultima_modificacion_realizada_por" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

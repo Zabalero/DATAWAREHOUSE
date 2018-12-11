@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9X56cehzEeiHgo83l0N86g" name="InstalacionesNuevas_2" dataPackage="_9X56cuhzEeiHgo83l0N86g" Server="Localhost 127.0.0.1" FilePath="C:/Automaticos/Remedy/InstalacionesNuevas_2_.txt" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9X56cuhzEeiHgo83l0N86g" name="default" dataManager="_9X56cehzEeiHgo83l0N86g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9X56c-hzEeiHgo83l0N86g" id="_s1xk4OhzEeiHgo83l0N86g" label="InstalacionesNuevas_2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56dOhzEeiHgo83l0N86g" label="CAR_FTTH_IUA" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56dehzEeiHgo83l0N86g" label="CAR_ID_Actuacion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56duhzEeiHgo83l0N86g" label="CAR_Tipo" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56d-hzEeiHgo83l0N86g" label="CAR_FTTH_ID_Pedido" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56eOhzEeiHgo83l0N86g" label="CAR_FTTH_CTO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56eehzEeiHgo83l0N86g" label="CAR_Telefono_Acceso" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56euhzEeiHgo83l0N86g" label="CAR_Nombre_Cliente" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56e-hzEeiHgo83l0N86g" label="CAR_Tipo_Calle" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56fOhzEeiHgo83l0N86g" label="CAR_Calle" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56fehzEeiHgo83l0N86g" label="CAR_Numero" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56fuhzEeiHgo83l0N86g" label="CAR_Codigo_Postal" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56f-hzEeiHgo83l0N86g" label="CAR_Poblacion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56gOhzEeiHgo83l0N86g" label="CAR_Provincia" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56gehzEeiHgo83l0N86g" label="CAR_FTTH_Nombre_Cabecera" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56guhzEeiHgo83l0N86g" label="CAR_Estado_Instalacion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56g-hzEeiHgo83l0N86g" label="CAR_Estado_Actuacion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56hOhzEeiHgo83l0N86g" label="CAR_Empresa_Mantenedora" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56hehzEeiHgo83l0N86g" label="CAR_Servicio" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56huhzEeiHgo83l0N86g" label="CORE_F_Creacion" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56h-hzEeiHgo83l0N86g" label="FEC_FTTH_Envio" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56iOhzEeiHgo83l0N86g" label="FEC_Prevista_Actuacion" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56iehzEeiHgo83l0N86g" label="FEC_Realizacion" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56iuhzEeiHgo83l0N86g" label="CORE_F_Modificacion" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56i-hzEeiHgo83l0N86g" label="FEC_Cambio_Estado" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56jOhzEeiHgo83l0N86g" label="SEL_Tipo_FTTH" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56jehzEeiHgo83l0N86g" label="SEL_FTTH_Jazzbox" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56juhzEeiHgo83l0N86g" label="CAR_FTTH_Portabilidad" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56j-hzEeiHgo83l0N86g" label="SEL_FTTH_Reutilizacion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56kOhzEeiHgo83l0N86g" label="CAR_Tecnico_Nombre" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56kehzEeiHgo83l0N86g" label="CAR_Submotivo" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56kuhzEeiHgo83l0N86g" label="CAR_Tecnico" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56k-hzEeiHgo83l0N86g" label="CAR_FTTH_Gescal37" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56lOhzEeiHgo83l0N86g" label="CAR_FTTH_Evolucion" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56lehzEeiHgo83l0N86g" label="CAR_ID_Provision" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56luhzEeiHgo83l0N86g" label="CAR_Tipo_Actividad" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56l-hzEeiHgo83l0N86g" label="FEC_Inicio_Pedido" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56mOhzEeiHgo83l0N86g" label="CAR_FTTH_Evolucion_Orange" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56mehzEeiHgo83l0N86g" label="CAR_FTTH_Modelo_ONT" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56muhzEeiHgo83l0N86g" label="CAR_FTTH_Modelo_AG" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56m-hzEeiHgo83l0N86g" label="CAR_FTTH_Tipo_CTO" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56nOhzEeiHgo83l0N86g" label="CAR_FTTH_Perfil_Servicio" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56nehzEeiHgo83l0N86g" label="CAR_Resultado_Prueba" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56nuhzEeiHgo83l0N86g" label="CAR_FTTH_Componente_TV" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56n-hzEeiHgo83l0N86g" label="FEC_FTTH_Hora_Inicio2" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56oOhzEeiHgo83l0N86g" label="FEC_FTTH_Hora_Fin2" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56oehzEeiHgo83l0N86g" label="CAR_Huella_Movistar" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56ouhzEeiHgo83l0N86g" label="CAR_Tipo_Estrato" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9X56o-hzEeiHgo83l0N86g" label="INT_Contador_Estados" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IOQ70Oh7EeiHgo83l0N86g" name="FEC_Proxima_Llamada" label="FEC_Proxima_Llamada" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bl0poPF_Eeiy2Kw1ViRHnw" name="NIFCIF" label="NIFCIF" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gERx8PF_Eeiy2Kw1ViRHnw" name="CAR_Telefono_Contacto" label="CAR_Telefono_Contacto" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GAdmUPIlEeiiwa4_dPHWUg" name="CAR_Codigo_MIGA" label="CAR_Codigo_MIGA" length="50" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
